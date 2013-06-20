@@ -1,0 +1,62 @@
+body {
+  color: #FFFFFF;
+    font-family: Lato,Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  height: auto;
+  padding-bottom: 20px;
+    font-size: 87.5%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.curvedDiv
+{
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.gradient
+{
+    background-image: linear-gradient(bottom, rgb(112,116,117) 13%, rgb(245,205,169) 42%);
+    background-image: -o-linear-gradient(bottom, rgb(112,116,117) 13%, rgb(245,205,169) 42%);
+    background-image: -moz-linear-gradient(bottom, rgb(112,116,117) 13%, rgb(245,205,169) 42%);
+    background-image: -webkit-linear-gradient(bottom, rgb(112,116,117) 13%, rgb(245,205,169) 42%);
+    background-image: -ms-linear-gradient(bottom, rgb(112,116,117) 13%, rgb(245,205,169) 42%);
+
+    background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        right top,
+        color-stop(0.13, rgb(112,116,117)),
+        color-stop(0.42, rgb(245,205,169))
+    );
+}
+
+
+
