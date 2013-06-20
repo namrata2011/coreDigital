@@ -27,6 +27,11 @@ ul.top-level li {
     border-bottom: #fff solid;
     border-top: #fff solid;
     border-width: 1px;
+    font-family: Gill Sans,My Gill Sans,sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    height: 42px;
+    line-height: 42px;
 }
 #navigation a {
     color: #fff;
