@@ -10,6 +10,16 @@
     line-height: 42px;
     background: #000000;
 
+
+}
+.subMenuItem
+{
+    border: 1px solid white;
+}
+
+.hiddenByCss
+{
+    display: none;
 }
 
 #navigation {
